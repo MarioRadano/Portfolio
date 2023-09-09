@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         description:"One-page e-commerce built with React (Next.js 13). Products are retrieved from an external API, and it is fully responsive.",
         image:"/e-commerce.svg", 
         imageBg:'/e-commerce-bg.png' ,
-        link:'https://github.com/MarioRadano/Fake-e-commerce'
+        link:'https://fake-e-commerce.vercel.app/'
     }
     const goodrive = {
         name:"Goodrive",
