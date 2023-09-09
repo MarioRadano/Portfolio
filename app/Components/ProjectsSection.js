@@ -16,7 +16,7 @@ export default function ProjectsSection() {
         description:"Responsive website built with HTML, CSS (Bootstrap), and JavaScript that sponsors new technologies for safe driving.",
         image:'/goodrive.png',
         imageBg:'/goodrive-bg.png',
-        link: 'https://github.com/MarioRadano/Goodrive'
+        link: 'https://goodrive.vercel.app/'
     }
     const miRifiuto = {
         name:'MiRifiuto',
