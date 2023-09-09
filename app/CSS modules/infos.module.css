@@ -1,0 +1,111 @@
+.section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    width:100%;
+    min-height:95vh;
+    gap:100px;
+    padding:100px 10vw 100px;
+    background: linear-gradient(0deg, rgba(0,209,247,1) 0%, rgba(128,0,255,1) 100%);
+}
+
+.container{
+    width:70vw;
+    min-height:350px;
+    padding: 40px 5vw;
+    border-radius:20px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:30px;
+    align-items:center;
+    position:relative;
+    perspective:400px;
+    transform-style:preserve-3d;
+    backface-visibility: hidden;
+}
+.container p{
+    color:white;
+}
+.container *{
+    z-index:5;
+}
+.container::before{
+    content:'';
+    width:95%;
+    height:95%;
+    position:absolute;
+    top:2.5%;
+    left:2.5%;
+    background-color:transparent;
+    border:2px solid white;
+    border-radius:20px;
+    z-index:4;
+    transform:translateZ(60px);
+    transform-style: preserve-3d;
+}
+.container img{
+    width:150px;
+    
+    object-fit: contain;
+    transform:translateZ(60px);
+    transform-style: preserve-3d;
+}
+.textbox{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap:25px;
+    perspective:400px;
+    transform-style: preserve-3d;
+    
+}
+.textbox h2{
+    transform:translateZ(30px);
+}
+.textbox h3{
+    transform:translateZ(25px);
+}
+.textbox p{
+    transform:translateZ(25px);
+}
+.section{
+    position:relative;
+    top:-4px;
+}
+@media screen and (min-width:768px) {
+
+    .container{
+        flex-direction:row;
+        padding: 30px 7vw;
+    }
+    .textbox{
+        width:45%;
+    }
+    .container img{
+        width:200px;
+        
+    }
+    .textbox h2{
+        transform:translateZ(55px);
+    }
+    .textbox h3{
+        transform:translateZ(45px);
+    }
+    .textbox p{
+        transform:translateZ(35px);
+    }
+
+}
+@media screen and (max-width:768px){
+    .container::before{
+        display:none;
+    }
+}
+  
