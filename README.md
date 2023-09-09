@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Notes
 
-On mobile devices, there is an animation supposed to work with the accelerometer device, but most of the devices blocks data from HTTP sites (like this). You can still observe it with the browser's console.
+On mobile devices, there is an animation that is supposed to work with the accelerometer, but most devices block data from HTTP sites (such as this one). You can still observe it using the browser's console.
 
