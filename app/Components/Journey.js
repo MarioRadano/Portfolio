@@ -20,8 +20,8 @@ const handleDeviceOrientation = (event) => {
     const cardMobile = document.querySelectorAll(`.${styles.container}`)
     
     cardMobile.forEach((cardMobile) => {
-      const x = -((45 * (event.beta - 90)) / 180)
-      const y = (45 * event.gamma) / 90
+      const x = -((90 * (event.beta - 90)) / 180)
+      const y = (90 * event.gamma) / 90
 
       cardMobile.style.transform = `rotateX(${x}deg) rotateY(${y}deg)`
       cardMobile.style.webkitTransform = `rotateX(${x}deg) rotateY(${y}deg)`

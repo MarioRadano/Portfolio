@@ -31,6 +31,7 @@ export default function ProjectsSection() {
         <div className={styles.title}>
             <h1>Projects</h1>
             <h3>(hover for details)</h3>
+            <h3>(tap for details)</h3>
         </div>
         <div className={styles.projects}>
             <Project project={eCommerce}/>
