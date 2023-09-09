@@ -9,8 +9,8 @@ export default function Journey({experience}) {
 const handleMouse = (e) => {
     const card = e.target.closest(`.${styles.container}`)
     if (card) {
-        const x = -((45 * (e.clientY - window.innerHeight / 2)) / window.innerHeight / 2)
-      const y = (45 * (e.clientX - window.innerWidth / 2)) / window.innerWidth / 2
+        const x = -((45 * (e.clientY - window.innerHeight / 1.5)) / window.innerHeight / 1.5)
+      const y = (45 * (e.clientX - window.innerWidth / 1.5)) / window.innerWidth / 1.5
 
       card.style.transform = `rotateX(${x}deg) rotateY(${y}deg)`
       card.style.webkitTransform = `rotateX(${x}deg) rotateY(${y}deg)`
