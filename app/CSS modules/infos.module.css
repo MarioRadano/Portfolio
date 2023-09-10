@@ -51,10 +51,11 @@
 }
 .container img{
     width:150px;
-    
     object-fit: contain;
     transform:translateZ(60px);
     transform-style: preserve-3d;
+    -webkit-filter: drop-shadow(2px 2px 4px #000000);
+  filter: drop-shadow(2px 2px 4px #000000);
 }
 .textbox{
     display:flex;
@@ -68,12 +69,15 @@
 }
 .textbox h2{
     transform:translateZ(30px);
+    text-shadow: 2px 2px 4px #000000;
 }
 .textbox h3{
     transform:translateZ(25px);
+    text-shadow: 2px 2px 4px #000000;
 }
 .textbox p{
     transform:translateZ(25px);
+    text-shadow: 2px 2px 4px #000000;
 }
 .section{
     position:relative;
