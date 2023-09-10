@@ -3,7 +3,7 @@
     top:-6px;
     height: 60vh;
     width:100%;
-   
+   z-index:3;
     background: linear-gradient(0deg, rgba(47,240,85,1) 50%, rgba(0,209,247,1) 100%);
     display:flex;
     flex-direction:column;
@@ -20,7 +20,17 @@
 .images img{
     transition:0.5s ease;
 }
+.text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    background: linear-gradient(0deg, rgba(0,247,174,1) 0%, rgba(80,71,255,1) 100%)fixed;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+}
 @media screen and (min-width:768px){
     .images img:hover{
         transform:scale(1.2);

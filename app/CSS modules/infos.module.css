@@ -6,7 +6,7 @@
     width:100%;
     min-height:95vh;
     gap:100px;
-    padding:100px 10vw 100px;
+    padding:30px 10vw 40px;
     background: linear-gradient(0deg, rgba(0,209,247,1) 0%, rgba(128,0,255,1) 100%);
 }
 
@@ -79,6 +79,16 @@
     position:relative;
     top:-4px;
 }
+.title{
+    background: linear-gradient(0deg, rgba(80,71,255,1) 0%, rgba(0,247,174,1) 100%)fixed;
+    background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align:center;
+  height:200px;
+  line-height: 320px;
+}
+
 @media screen and (min-width:768px) {
 
     .container{

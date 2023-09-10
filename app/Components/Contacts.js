@@ -6,8 +6,10 @@ export default function Contacts() {
 
     return (<>
     <div className={styles.section}>
-        <h2>Contact me!</h2>
-        <h3>E-mail:radanomario@hotmail.it</h3>
+        <div className={styles.text}>
+            <h2>Contact me!</h2>
+            <h3>E-mail:radanomario@hotmail.it</h3>
+        </div>
         <div className={styles.images}>
             <a href='https://github.com/MarioRadano'>
                 <Image

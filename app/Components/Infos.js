@@ -36,7 +36,9 @@ export default function Infos() {
 
     <div className={styles.section}>
 
-        <h1>My journey</h1>
+        <div className={styles.title}>
+            <h1>My journey</h1>
+        </div>
         <Journey experience={masters}/>
         <Journey experience={internship}/>
         <Journey experience={bachelor}/>
