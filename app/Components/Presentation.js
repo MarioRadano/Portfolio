@@ -1,6 +1,6 @@
 import styles from '../CSS modules/presentation.module.css'
 import Image from 'next/image'
-import photo from './images/foto.jpg'
+import photo from './images/foto.png'
 
 export default function Presentation() {
 
